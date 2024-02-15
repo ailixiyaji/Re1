@@ -68,6 +68,7 @@ ARM指令通常跟一到两个操作数，我们使用如下模板描述：
 ## 内存指令，加载和存储
 通常，LDR用于将内存数据加载到寄存器中，STR用于从寄存器的值存储到内存地址对应的内存中。
 ### 立即数用作偏移
+![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/fb5d8878-871b-4837-9f09-dc13f368d2ec)
 _start:
 
        ldr r0, adr_var1  将变量var1的内存地址通过标签adr_var1载入R0
@@ -97,6 +98,7 @@ _start:
 
        ldr r3, [r1], r2  寻址模式：后索引模式。将R2的值作为地址取出里面的值，并将其存入寄存器R3。基址寄存器R1更新为R1=R1+R2。
 ### 移位寄存器作为偏移
+![Uploading headImg.png…]()
 _start:
 
               ldr r0, adr_var1      透过adr_var1标签，将var1变量的内存地址加载进R0
