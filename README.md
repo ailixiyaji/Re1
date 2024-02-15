@@ -98,7 +98,7 @@ _start:
 
        ldr r3, [r1], r2  寻址模式：后索引模式。将R2的值作为地址取出里面的值，并将其存入寄存器R3。基址寄存器R1更新为R1=R1+R2。
 ### 移位寄存器作为偏移
-![Uploading headImg.png…]()
+![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/726381d4-24f0-4519-a5c3-de5aa5dd0487)
 _start:
 
               ldr r0, adr_var1      透过adr_var1标签，将var1变量的内存地址加载进R0
