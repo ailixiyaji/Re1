@@ -148,6 +148,20 @@ a       将二进制数据解释为字符串
 
 ***UPX***
 
+compress(压缩)     -(1-9) 默认8/--best
+
+decompress(解压缩)     -d
+
+test     检查文件是否能安全解压
+
+list     提供文件信息
+
+doc/upx.pod
+
+
+
+
+
 
 
 
