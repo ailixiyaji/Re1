@@ -156,9 +156,7 @@ test     检查文件是否能安全解压
 
 list     提供文件信息
 
-doc/upx.pod
-
-
+[详情](https://github.com/upx/upx/blob/master/doc/upx.pod)
 
 
 
