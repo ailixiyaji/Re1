@@ -161,11 +161,16 @@ list     提供文件信息
 ### 实践
 1.***scan with PEiD*** 查看编译信息
 ***使用OD动态调试*** using string reference find ASCII 查找提示
+
 ![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/9432d175-7b58-441b-af5f-fd5dfafe4aa9)
+
 在关键跳转下断点（单击F2）F9运行程序F8跟踪
 
 
-***IDA静态分析***![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/cd420c84-3bad-49b8-8bde-fb65ce3ad74d)
+***IDA静态分析***
+
+![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/cd420c84-3bad-49b8-8bde-fb65ce3ad74d)
+
 点击提示相关字符串X交叉引用
 
 查找F5可生成函数伪代码
