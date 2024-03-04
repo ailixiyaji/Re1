@@ -1,4 +1,4 @@
-# Re0:从零开始的ARM学习生活
+# Re0:从零开始的逆向学习生活
 ## 数据类型和寄存器
 可以供我们载入（load）或者存储（store）的数据类型可以分为有符号和无符号类型的字，半字，或字节。对这些数据类型的扩展是：半字为-h，-sh，字节为-b或者-sb，字没有扩展。
 涉及到的指令集包括
@@ -158,10 +158,8 @@ list     提供文件信息
 
 [详情](https://github.com/upx/upx/blob/master/doc/upx.pod)
 
-
-
-
-
-
-
+### 实践
+1. ***scan with PEiD*** 查看编译信息
+2. ***使用OD动态调试*** using string reference find ASCII 查找提示
+3.         
 
