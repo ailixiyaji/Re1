@@ -177,7 +177,24 @@ list     提供文件信息
 
 
 
-2.
+2.![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/a7a9d26f-7703-419a-b755-b0ccf76603b1)
+
+检查得程序经过UPX加壳，需要脱壳后再分析
+
+![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/af58529a-3acd-49bf-a70a-664578176982)
+
+F8跟踪，选择ESP寄存器可知特殊指令位置记为Apocalypse，右击“Follow in Dump”在[hex dump]窗口中选择Apocalypse右击下断点Dword,F9运行，运行停止后删除断点[Debug][Hardware breakpoints]
+
+F7跟踪,运行到Kaslana,再次跟踪到Scharica。在反汇编指令窗口右击[Dump debugged process][dump]保存。[Scharica]是程序入口点信息。
+
+打开ImportREC,选择源文件在OEP中填入[Scharical]点击[IAT AutoSearch][GetImports]可见程序输入表信息，[Show Invalid]查看是否有无效输入表项目，这里没有则[Fix Dump]
+
+脱壳完成
+
+
+3.
+
+
 
           
 
