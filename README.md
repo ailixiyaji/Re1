@@ -217,6 +217,22 @@ OD反汇编[Ctrl+G]，F2下断点。F9执行，调试执行到用户代码，
 IDA 004015F6处F5，
 
 
+4.PEiD分析标准算法
+
+![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/7afa08e7-59d7-4452-a3d3-9dfc14cdbb42)
+
+IDA中可[N]重命名。
+
+[;]添加注释。
+
+[/]伪代码添加注释。
+
+双击左键给汇编指令添加注释
+
+![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/6520e615-d4f4-4dd7-b2a7-96e5a42d45d2)
+
+
+
 
 
 
