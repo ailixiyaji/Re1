@@ -232,6 +232,63 @@ IDA中可[N]重命名。
 ![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/6520e615-d4f4-4dd7-b2a7-96e5a42d45d2)
 
 
+通过注册算法编写注册机
+
+```
+import hashlib
+while True:
+username = raw_input("input username:")
+md5 = hashlib.md5(username).hexdigest().upper()
+serial = md5[::-1] //翻转字符串
+print "serial: %s" % serial
+```
+
+5.异或运算的法则如下：
+
+0⊕0=0
+
+1⊕0=1
+
+0⊕1=1
+
+1⊕1=0
+
+在编程语言中，通常使用^符号来表示异或运算，比如C和Python都使用这一符号。
+
+![headImg](https://github.com/ailixiyaji/Re1/assets/145940467/e17162a9-7212-42d7-b155-fca8fa2abb3a)
+
+```
+def crack(username):
+
+    key = [1, 2, 3, 4, 1, 5, 1, 5, 1, 3, 6, 5,
+
+         4, 8, 5, 3, 1, 2, 3, 4, 5, 3, 5, 7,
+
+         2, 3, 2, 4, 8, 2, 5, 6, 4]
+
+    pwd = []
+
+    for i in xrange(0, len(username)):
+
+        pwd.append(chr(ord(username[i]) ^ key[i]))
+
+    return "".join(pwd)
+if __name__ == "__main__":
+
+    while True:
+
+        username = raw_input("input username:")
+
+        serial = crack(username)
+
+        print "serial: %s" % serial
+```
+6.
+
+
+
+
+
 
 
 
